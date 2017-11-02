@@ -1,26 +1,30 @@
 # Xamarin.CrudBasico
-Material utilizado na Disciplina: Programação Mobile (Xamarin), da Especialização em Desenvolvimento de Software Full Stack, Faculdade Delta, Goiânia - Goiás
+Material utilizado na Disciplina: ProgramaÃ§Ã£o Mobile (Xamarin), da EspecializaÃ§Ã£o em Desenvolvimento de Software Full Stack, Faculdade Delta, GoiÃ¢nia - GoiÃ¡s
 
 # Requisitos 
-- Visual Studio 2017
-- SQLite.Net-PCL
-- Xamarin.Forms
+- IDE: Visual Studio 2017
+- Package: SQLite.Net-PCL, Xamarin.Forms.
 
-# Conteúdo ministrado na aula 2
+# ConteÃºdo ministrado na aula 2
+## Entender a arquitetura do projeto: Calculadora
+- As regras de negÃ³cios implementadas no projeto principal portable  sÃ£o reutilizada 100% nos projetos Android, IOS e Windows.
+- Implementar novas regras de negÃ³cios no projeto portable na classe Matematica.cs.
+- Implementar o reuso dos novos mÃ©todos (Subtrair, Multiplicar, Dividir).
+## CrudBasico:
 - Criar Projeto CRUD Cross-Platform, Xamarin.Foms e PCL.
-- Configurar o projeto de multiplataforma com Android, IOS.
-- Criar a camada de persistência utilizando o SGDB SQLite.
+- Configurar o projeto multiplataforma para Android, IOS.
+- Criar a camada de persistÃªncia utilizando o SGDB SQLite.
 - Criar a Class Model.
-- Criar a Interface IConfig para identificar o diretório raiz do banco de dados e o tipo de projeto (Android, IOS).
-- Criar a camada de apresentação utilizando Xamarin Forms.
-- Criar o Controlador de comunicação entre as camadas: persistência  e apresentação.
-- Utilizar Injeção de dependência no Projeto Android: Config.cs
+- Criar a Interface IConfig para identificar o diretÃ³rio raiz do banco de dados e o tipo de projeto (Android, IOS).
+- Criar a camada de apresentaÃ§Ã£o utilizando Xamarin Forms.
+- Criar o Controlador de comunicaÃ§Ã£o entre as camadas: persistÃªncia  e apresentaÃ§Ã£o.
+- Utilizar InjeÃ§Ã£o de dependÃªncia no Projeto Android: Config.cs
 
-# Agenda de conteúdo da Aula 3 
+# Agenda de conteÃºdo da Aula 3 
 - Implementar o Pattern Model-View-ViewModel (MVVM).
 - Consumir Web Service.
 - Implementar recurso de navegabilidade (Menu, Grid, Layouts, Controls, etc).
-- Validações de Campos.
+- ValidaÃ§Ãµes de Campos.
 
 
 
