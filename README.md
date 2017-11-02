@@ -6,11 +6,11 @@ Material utilizado na Disciplina: Programação Mobile (Xamarin), da Especializa
 - Package: SQLite.Net-PCL, Xamarin.Forms.
 
 # Conteúdo ministrado na aula 2
--> Entender a arquitetura do projeto: Calculadora
+## Entender a arquitetura do projeto: Calculadora
 - As regras de negócios implementadas no projeto principal portable  são reutilizada 100% nos projetos Android, IOS e Windows.
 - Implementar novas regras de negócios nos projeto portable na classe Matematica.cs.
 - Implementar o reuso dos novos métodos (Subtrair, Multiplicar, Dividir).
--> CrudBasico:
+## CrudBasico:
 - Criar Projeto CRUD Cross-Platform, Xamarin.Foms e PCL.
 - Configurar o projeto de multiplataforma com Android, IOS.
 - Criar a camada de persistência utilizando o SGDB SQLite.
