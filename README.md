@@ -8,11 +8,11 @@ Material utilizado na Disciplina: Programação Mobile (Xamarin), da Especializa
 # Conteúdo ministrado na aula 2
 ## Entender a arquitetura do projeto: Calculadora
 - As regras de negócios implementadas no projeto principal portable  são reutilizada 100% nos projetos Android, IOS e Windows.
-- Implementar novas regras de negócios nos projeto portable na classe Matematica.cs.
+- Implementar novas regras de negócios no projeto portable na classe Matematica.cs.
 - Implementar o reuso dos novos métodos (Subtrair, Multiplicar, Dividir).
 ## CrudBasico:
 - Criar Projeto CRUD Cross-Platform, Xamarin.Foms e PCL.
-- Configurar o projeto de multiplataforma com Android, IOS.
+- Configurar o projeto multiplataforma para Android, IOS.
 - Criar a camada de persistência utilizando o SGDB SQLite.
 - Criar a Class Model.
 - Criar a Interface IConfig para identificar o diretório raiz do banco de dados e o tipo de projeto (Android, IOS).
