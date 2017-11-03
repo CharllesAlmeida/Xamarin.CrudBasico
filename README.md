@@ -1,12 +1,12 @@
 # Xamarin.CrudBasico
-Material utilizado na Disciplina: Programação Mobile (Xamarin), da Especialização em Desenvolvimento de Software Full Stack, Faculdade Delta, Goiânia - Goiás
+Material utilizado na Disciplina: Programação Mobile (Xamarin) da Especialização em Desenvolvimento de Software Full Stack, Faculdade Delta, Goiânia - Goiás
 
 # Requisitos 
 - IDE: Visual Studio 2017
 - Package: SQLite.Net-PCL, Xamarin.Forms.
 
 # Conteúdo ministrado na aula 2
-## Entender a arquitetura do projeto Portable Class Libraries - Xamarin: Calculadora - Portable Class Libraries - Xamarin
+## Entender a arquitetura do projeto: Calculadora - Portable Class Libraries - Xamarin
 - As regras de negócios implementadas no projeto principal portable  são reutilizadas 100% nos projetos Android, IOS e Windows.
 - Implementar novas regras de negócios no projeto portable na classe Matematica.cs.
 - Implementar o reuso dos novos métodos (Subtrair, Multiplicar, Dividir).
